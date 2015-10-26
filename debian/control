@@ -14,7 +14,6 @@ Depends: gtk2-engines-pixbuf,
          libnewt0.52 (>= 0.52.11),
          alip-lxpanel-icons,
          ${misc:Depends}
-#gtk2-engines,
 Description: artwork for Linaro ALIP
  Artwork for Linaro ALIP, contained the wallpaper and others specific images
  and logos.
@@ -24,9 +23,9 @@ Description: artwork for Linaro ALIP
 Package: alip-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme,
+         gnome-icon-theme,
          gnome-icon-theme-symbolic,
          ${misc:Depends}
-gnome-icon-theme-full,
 Description: icon theme for Linaro ALIP
  This package contains a specific icon theme for Linaro ALIP.
 

@@ -1,12 +1,12 @@
 #!/usr/bin/make -f
 
 #SUBDIRS :=
- 
+
 all: install
 
 install:
 	mkdir -pv $(DESTDIR)
-	cp -a src/usr src/lib $(DESTDIR)/.
+	cp -a src/usr $(DESTDIR)/.
 	# po generation
 	for i in $(SUBDIRS); do \
 		make -C $(DESTDIR)/$$i; \
