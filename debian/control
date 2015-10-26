@@ -1,220 +1,37 @@
-Source: lubuntu-artwork
+Source: alip-artwork
 Section: x11
 Priority: optional
-Maintainer: Julien Lavergne <gilir@ubuntu.com>
-Build-Depends: debhelper (>= 7.0.50~),
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Build-Depends: debhelper (>= 9),
                icon-naming-utils,
                intltool
-Standards-Version: 3.8.3
-Homepage: https://launchpad.net/~lubuntu-desktop
-Vcs-Bzr: lp:~lubuntu-desktop/+junk/lubuntu-artwork
-Vcs-Browser: http://bazaar.launchpad.net/~lubuntu-desktop/+junk/artwork/files
+Standards-Version: 3.9.5
 
-Package: lubuntu-artwork
+Package: alip-artwork
 Architecture: all
-Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         lubuntu-artwork-15-10,
-         lubuntu-lxpanel-icons,
-         ${misc:Depends}
-Description: artwork for Lubuntu
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
-
-Package: lubuntu-artwork-15-10
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
+Depends: gtk2-engines-pixbuf,
          gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
+         libnewt0.52 (>= 0.52.11),
+         alip-lxpanel-icons,
          ${misc:Depends}
-Description: artwork for Lubuntu - 15.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
+#gtk2-engines,
+Description: artwork for Linaro ALIP
+ Artwork for Linaro ALIP, contained the wallpaper and others specific images
+ and logos.
  .
- This package contains theme of Lubuntu 15.10.
+ This package contains theme of Linaro ALIP.
 
-Package: lubuntu-artwork-15-04
+Package: alip-icon-theme
 Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 15.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 15.04.
-
-Package: lubuntu-artwork-14-10
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 14.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 14.10.
-
-Package: lubuntu-artwork-14-04
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 14.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 14.04.
-
-Package: lubuntu-artwork-13-10
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 13.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 13.10.
-
-Package: lubuntu-artwork-13-04
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 13.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 13.04
-
-Package: lubuntu-artwork-12-10
-Architecture: all
-Depends: gtk2-engines,
-         gtk2-engines-pixbuf,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 12.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 12.10
-
-Package: lubuntu-artwork-12-04
-Architecture: all
-Depends: gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 12.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 12.04
-
-Package: lubuntu-artwork-11-10
-Architecture: all
-Depends: gtk2-engines-murrine,
-         gtk3-engines-unico,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 11.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 11.10
-
-Package: lubuntu-artwork-11-04
-Architecture: all
-Depends: gtk2-engines-murrine,
-         libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 11.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 11.04
-
-Package: lubuntu-artwork-10-10
-Architecture: all
-Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 10.10 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 10.10
-
-Package: lubuntu-artwork-10-04
-Architecture: all
-Depends: libnewt0.52 (>= 0.52.11-2ubuntu7),
-         ${misc:Depends}
-Description: artwork for Lubuntu - 10.04 version
- Artwork for Lubuntu, contained the wallpaper and others specific images and
- logos.
- .
- This package contains theme of Lubuntu 10.04
-
-Package: plymouth-theme-lubuntu-logo
-Architecture: all
-Depends: plymouth, plymouth-label,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Provides: plymouth-theme
-Replaces: lubuntu-plymouth-theme,
-          plymouth (<< 0.8.1-1~)
-Conflicts: lubuntu-plymouth-theme
-Description: plymouth theme for Lubuntu
- This package contain a specific Lubuntu theme for plymouth.
-
-Package: plymouth-theme-lubuntu-text
-Architecture: all
-Depends: plymouth,
-         plymouth-label,
-         plymouth-theme-ubuntu-text,
-         ${misc:Depends},
-         ${shlibs:Depends}
-Provides: plymouth-theme
-Replaces: plymouth (<< 0.8.1-1~)
-Description: plymouth text theme for Lubuntu
- This package contain a specific Lubuntu theme for plymouth, which display a
- simple text.
-
-Package: lubuntu-icon-theme
-Architecture: all
-Depends: gnome-icon-theme-full,
-         hicolor-icon-theme,
+Depends: hicolor-icon-theme,
          gnome-icon-theme-symbolic,
          ${misc:Depends}
-Description: icon theme for Lubuntu
- This package contains a specific icon theme for Lubuntu.
+gnome-icon-theme-full,
+Description: icon theme for Linaro ALIP
+ This package contains a specific icon theme for Linaro ALIP.
 
-Package: lubuntu-lxpanel-icons
+Package: alip-lxpanel-icons
 Architecture: all
 Depends: ${misc:Depends}
-Description: panel specific icons for Lubuntu artwork
- This package contain specific lxpanel icons for Lubuntu theme.
-
-Package: sddm-theme-lubuntu-chooser
-Architecture: all
-Depends: ${misc:Depends}
-Recommends: sddm
-Provides: sddm-theme
-Description: 'Lubuntu chooser' theme for SDDM X11 display manager
- Lubuntu chooser theme for SDDM
+Description: panel specific icons for Linaro ALIP artwork
+ This package contain specific lxpanel icons for Linaro ALIP theme.
