@@ -1,4 +1,4 @@
-Source: alip-artwork
+Source: 96boards-artwork
 Section: x11
 Priority: optional
 Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
@@ -6,34 +6,34 @@ Build-Depends: debhelper (>= 9),
                icon-naming-utils,
                intltool
 Standards-Version: 3.9.6
-Vcs-Git: https://github.com/rsalveti/alip-artwork.git
-Homepage: https://github.com/rsalveti/alip-artwork
+Vcs-Git: https://github.com/rsalveti/96boards-artwork.git
+Homepage: https://github.com/rsalveti/96boards-artwork
 
-Package: alip-artwork
+Package: 96boards-artwork
 Architecture: all
 Depends: gtk2-engines-pixbuf,
          gtk2-engines-murrine,
          libnewt0.52 (>= 0.52.11),
-         alip-lxpanel-icons,
-         alip-icon-theme,
+         96boards-lxpanel-icons,
+         96boards-icon-theme,
          ${misc:Depends}
-Description: artwork for Linaro ALIP
- Artwork for Linaro ALIP, contained the wallpaper and others specific images
+Description: artwork for 96Boards
+ Artwork for 96Boards, contained the wallpaper and others specific images
  and logos.
  .
- This package contains theme of Linaro ALIP.
+ This package contains theme of 96Boards.
 
-Package: alip-icon-theme
+Package: 96boards-icon-theme
 Architecture: all
 Depends: hicolor-icon-theme,
          gnome-icon-theme,
          gnome-icon-theme-symbolic,
          ${misc:Depends}
-Description: icon theme for Linaro ALIP
- This package contains a specific icon theme for Linaro ALIP.
+Description: icon theme for 96Boards
+ This package contains a specific icon theme for 96Boards.
 
-Package: alip-lxpanel-icons
+Package: 96boards-lxpanel-icons
 Architecture: all
 Depends: ${misc:Depends}
-Description: panel specific icons for Linaro ALIP artwork
- This package contain specific lxpanel icons for Linaro ALIP theme.
+Description: panel specific icons for 96Boards artwork
+ This package contain specific lxpanel icons for 96Boards theme.

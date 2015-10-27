@@ -1,18 +1,18 @@
-# Default theme for Linaro ALIP, based on the
+# Default theme for 96Boards, based on the
 # default theme for Lubuntu by The Lubuntu Artwork Team:
 # Rafael Laguna and Alexander Andjelkovic
 # Based on Radiance. GPL2 / Open Source licensed
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Desktop Entry]
-Name=ALIP
+Name=96Boards
 Type=X-GNOME-Metatheme
-Comment=Default theme for Linaro ALIP
+Comment=Default theme for 96Boards
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=ALIP
-IconTheme=ALIP
+GtkTheme=96Boards
+IconTheme=96Boards
 CursorTheme=DMZ-Black
 CursorSize=24
 NotificationTheme=ubuntu

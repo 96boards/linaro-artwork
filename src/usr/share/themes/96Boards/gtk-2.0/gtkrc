@@ -670,12 +670,12 @@ include "apps/chromium.rc"
 include "apps/ff.rc"
 include "apps/gnome-terminal.rc"
 
-# ALIP specific
-include "apps/alip_lxpanel.rc"
-include "apps/alip_toolbar.rc"
-include "apps/alip_entry.rc"
-include "apps/alip_menu.rc"
-include "apps/alip_scrollbar.rc"
+# 96Boards specific
+include "apps/96boards_lxpanel.rc"
+include "apps/96boards_toolbar.rc"
+include "apps/96boards_entry.rc"
+include "apps/96boards_menu.rc"
+include "apps/96boards_scrollbar.rc"
 include "apps/pcmanfm.rc"
 
 # XFCE specific

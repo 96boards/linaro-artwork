@@ -1,12 +1,12 @@
-# Default theme for the Linaro ALIP image, based on the
+# Default theme for 96Boards, based on the
 # original theme for Lubuntu, by The Lubuntu Artwork Team:
 # Rafael Laguna and Alexander Andjelkovic
 # Thanks to Đurađ Radojičić
 # More info at: https://launchpad.net/~lubuntu-art
 
 [Icon Theme]
-Name=ALIP
-Comment=Default Linaro ALIP theme
+Name=96Boards
+Comment=96Boards theme
 Inherits=Adwaita,gnome,hicolor
 Example=directory-x-normal
 
