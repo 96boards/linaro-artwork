@@ -1,10 +1,4 @@
-usr/share/lubuntu/images/logout-banner.png
-usr/share/lubuntu/images/lubuntu-logo.png
-usr/share/lubuntu/wallpapers/*
-usr/share/lxdm/themes/Lubuntu
-usr/share/lxpanel/images/lubuntu-background.png
-usr/share/themes/Lubuntu*
-usr/share/lubuntu/startpage/
-usr/share/lubuntu/images/1510-*
-usr/share/lxdm/themes/1510-*
-usr/share/lxpanel/images/1510-*
+usr/share/alip/wallpapers
+usr/share/lxdm/themes/ALIP
+usr/share/themes/ALIP
+usr/share/lxpanel/images/*.png

@@ -5,7 +5,9 @@ Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
 Build-Depends: debhelper (>= 9),
                icon-naming-utils,
                intltool
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/rsalveti/alip-artwork.git
+Homepage: https://github.com/rsalveti/alip-artwork
 
 Package: alip-artwork
 Architecture: all
@@ -13,6 +15,7 @@ Depends: gtk2-engines-pixbuf,
          gtk2-engines-murrine,
          libnewt0.52 (>= 0.52.11),
          alip-lxpanel-icons,
+         alip-icon-theme,
          ${misc:Depends}
 Description: artwork for Linaro ALIP
  Artwork for Linaro ALIP, contained the wallpaper and others specific images

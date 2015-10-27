@@ -1,10 +1,5 @@
-alip-artwork (0.1) unstable; urgency=medium
+alip-artwork (0.1) UNRELEASED; urgency=medium
 
-  * src/usr/share/icons:
-   - Add vm icons.
-  * usr/share/lubuntu/wallpapers/1510-lubuntu-default-wallpaper.png
-   - Update wallpaper for 15.10.
-  * src/usr/share/icons:
-   - Fix Lubuntu-dark-panel inherit (LP: #1358402).
+  * Initial upload
 
- -- Julien Lavergne <gilir@ubuntu.com>  Wed, 09 Sep 2015 22:36:43 +0200
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Tue, 27 Oct 2015 02:14:26 -0200
