@@ -1,8 +1,8 @@
-96boards-artwork (0.2) UNRELEASED; urgency=medium
+96boards-artwork (0.2) jessie; urgency=medium
 
   * Adding wallpaper with 96Boards branding
 
- -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Tue, 27 Oct 2015 22:14:46 -0200
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Tue, 27 Oct 2015 22:14:46 -0200
 
 96boards-artwork (0.1) jessie; urgency=medium
 
