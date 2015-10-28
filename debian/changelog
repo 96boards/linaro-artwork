@@ -1,9 +1,9 @@
-96boards-artwork (0.4) UNRELEASED; urgency=medium
+96boards-artwork (0.4) jessie; urgency=medium
 
   * debian/control: depend on dmz-cursor-theme
   * Changing cursor theme to DMZ-White
 
- -- Ricardo Salveti de Araujo <rsalveti@rsalveti.net>  Wed, 28 Oct 2015 15:57:43 -0200
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Wed, 28 Oct 2015 15:57:43 -0200
 
 96boards-artwork (0.3) jessie; urgency=medium
 
