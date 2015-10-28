@@ -3,7 +3,7 @@ set -e
 
 case "$1" in
     remove|deconfigure)
-	update-alternatives --remove desktop-background /usr/share/96boards/wallpapers/96boards-default-wallpaper.png
+	update-alternatives --remove desktop-background /usr/share/96boards/wallpapers/96boards-default-wallpaper.jpg
 	;;
 
     purge)

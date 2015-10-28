@@ -6,7 +6,7 @@ case "$1" in
 	update-alternatives --install \
 		/usr/share/images/desktop-base/desktop-background \
 		desktop-background \
-		/usr/share/96boards/wallpapers/96boards-default-wallpaper.png 80
+		/usr/share/96boards/wallpapers/96boards-default-wallpaper.jpg 80
 	;;
 
     abort-deconfigure|abort-remove)
