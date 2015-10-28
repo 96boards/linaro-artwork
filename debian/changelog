@@ -1,3 +1,10 @@
+96boards-artwork (0.3) UNRELEASED; urgency=medium
+
+  * Removing update-alternatives logic for desktop-background,
+    96boards-default-settings should be using the direct path instead
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Wed, 28 Oct 2015 13:07:07 -0200
+
 96boards-artwork (0.2) jessie; urgency=medium
 
   * Adding wallpaper with 96Boards branding
