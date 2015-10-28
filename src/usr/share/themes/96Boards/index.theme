@@ -13,7 +13,7 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=96Boards
 IconTheme=96Boards
-CursorTheme=DMZ-Black
+CursorTheme=DMZ-White
 CursorSize=24
 NotificationTheme=ubuntu
 MetacityTheme=Box-default

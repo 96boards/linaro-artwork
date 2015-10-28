@@ -16,6 +16,7 @@ Depends: gtk2-engines-pixbuf,
          libnewt0.52 (>= 0.52.11),
          96boards-lxpanel-icons,
          96boards-icon-theme,
+         dmz-cursor-theme,
          ${misc:Depends}
 Description: artwork for 96Boards
  Artwork for 96Boards, contained the wallpaper and others specific images
