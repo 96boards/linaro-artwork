@@ -1,4 +1,4 @@
-96boards-artwork (0.3) UNRELEASED; urgency=medium
+96boards-artwork (0.3) jessie; urgency=medium
 
   * Removing update-alternatives logic for desktop-background,
     96boards-default-settings should be using the direct path instead
