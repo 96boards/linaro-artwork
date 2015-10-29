@@ -11,7 +11,8 @@ Homepage: https://github.com/rsalveti/96boards-artwork
 
 Package: 96boards-artwork
 Architecture: all
-Depends: gtk2-engines-pixbuf,
+Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
          gtk2-engines-murrine,
          libnewt0.52 (>= 0.52.11),
          96boards-lxpanel-icons,
