@@ -3,11 +3,11 @@
 <metacity_theme>
 
 <info>
-  <name>96Boards</name>
+  <name>Linaro</name>
   <author>Rafael Laguna</author>
   <copyright>GPL 2.0</copyright>
   <date>November, 2013</date>
-  <description>Metacity theme matching 96Boards Box</description>
+  <description>Metacity theme matching Linaro Box</description>
 </info>
 
 <!-- General window layout -->
