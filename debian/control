@@ -1,0 +1,41 @@
+Source: linaro-artwork
+Section: x11
+Priority: optional
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Build-Depends: debhelper (>= 9),
+               icon-naming-utils,
+               intltool
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/96boards/linaro-artwork.git
+Homepage: https://github.com/96boards/linaro-artwork
+
+Package: linaro-artwork
+Architecture: all
+Depends: gtk2-engines,
+         gtk2-engines-pixbuf,
+         gtk2-engines-murrine,
+         libnewt0.52 (>= 0.52.11),
+         linaro-lxpanel-icons,
+         linaro-icon-theme,
+         dmz-cursor-theme,
+         ${misc:Depends}
+Description: artwork for Linaro
+ Artwork for Linaro, contained the wallpaper and others specific images
+ and logos.
+ .
+ This package contains theme of Linaro.
+
+Package: linaro-icon-theme
+Architecture: all
+Depends: hicolor-icon-theme,
+         gnome-icon-theme,
+         gnome-icon-theme-symbolic,
+         ${misc:Depends}
+Description: icon theme for Linaro
+ This package contains a specific icon theme for Linaro.
+
+Package: linaro-lxpanel-icons
+Architecture: all
+Depends: ${misc:Depends}
+Description: panel specific icons for Linaro artwork
+ This package contain specific lxpanel icons for Linaro theme.
