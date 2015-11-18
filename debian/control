@@ -11,6 +11,8 @@ Homepage: https://github.com/96boards/linaro-artwork
 
 Package: linaro-artwork
 Architecture: all
+Replaces: 96boards-artwork (<= 0.5)
+Breaks: 96boards-artwork (<= 0.5)
 Depends: gtk2-engines,
          gtk2-engines-pixbuf,
          gtk2-engines-murrine,
@@ -27,6 +29,8 @@ Description: artwork for Linaro
 
 Package: linaro-icon-theme
 Architecture: all
+Replaces: 96boards-icon-theme (<= 0.5)
+Breaks: 96boards-icon-theme (<= 0.5)
 Depends: hicolor-icon-theme,
          gnome-icon-theme,
          gnome-icon-theme-symbolic,
@@ -35,6 +39,8 @@ Description: icon theme for Linaro
  This package contains a specific icon theme for Linaro.
 
 Package: linaro-lxpanel-icons
+Replaces: 96boards-lxpanel-icons (<= 0.5)
+Breaks: 96boards-lxpanel-icons (<= 0.5)
 Architecture: all
 Depends: ${misc:Depends}
 Description: panel specific icons for Linaro artwork
